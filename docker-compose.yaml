@@ -1,0 +1,12 @@
+services:
+  hello1:
+    build: .
+    image: hello:v0.2
+    volumes:
+      - /tmp:/tmp
+
+  hello2:
+    build: .
+    image: hello:v0.2
+    volumes:
+      - /tmp:/tmp
